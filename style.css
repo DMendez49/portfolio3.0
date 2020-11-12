@@ -1,0 +1,103 @@
+.text{
+  font-family: 'Roboto Mono', monospace;
+}
+
+.project-tile{
+  width: 400px;
+  /* border: 1px; */
+}
+
+.profile-picture{
+  border-radius: 50%;
+}
+
+.card{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 1300px;
+  border-radius: 5px;
+}
+
+.margin-left{
+  margin-left: 140px;
+}
+
+.project-card{
+  width: 400px;
+  border-style: groove;
+  border-width: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
+  transition: 0.3s !important;
+  border-radius: 5px;
+}
+
+.project-card :hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.background{
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT8mQmR0FBQkWjqm93dunLi9Fvz-Fs6N535GA&usqp=CAU);
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat;
+  left: 0;
+  top: 0;
+}
+
+.welcome{
+  padding-bottom: 30px;
+}
+
+.welcome-text{
+  width: 550px;
+}
+
+.project{
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.navbar{
+  overflow: hidden;
+  width: 18.6vw;
+  height: 100%;
+  position: fixed;
+  display: grid;
+}
+
+.nav{
+  background-color: rgba(255, 255, 255, 0.658);
+  justify-content: space-around;
+  overflow: hidden;
+  position: fixed;
+  width: 18.6vw;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: grid !important;
+  padding-top: 80px;
+}
+
+.img{
+position: fixed;
+padding-top: 20px;
+padding-left: 15px;
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(400px, 2fr));
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 105px;
+  grid-template-areas:
+  "advert"
+  "content";
+}
+
+
+
+
+
+
+
