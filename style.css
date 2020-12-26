@@ -4,11 +4,13 @@
 
 .project-tile{
   width: 400px;
-  /* border: 1px; */
 }
 
 .profile-picture{
   border-radius: 50%;
+  width: 30vw;
+  height: 30vw;
+  object-fit: cover;
 }
 
 .card{
@@ -39,7 +41,6 @@
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-
 .background{
   background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT8mQmR0FBQkWjqm93dunLi9Fvz-Fs6N535GA&usqp=CAU);
   background-size: 100% 100% !important;
@@ -50,6 +51,11 @@
 
 .welcome{
   padding-bottom: 30px;
+  /* height: 10vh; */
+}
+
+#welcome-section{
+  height: 25vh;
 }
 
 .welcome-text{
@@ -156,6 +162,8 @@ input[type=text], select, textarea {
   padding-top: 100px;
 }
 
-
+@media screen and(max-width){
+  
+}
 
 
